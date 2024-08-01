@@ -1,7 +1,7 @@
 #EDA (探索性数据分析) - 共享单车需求
 import numpy as np
 import pandas as pd
-# 데이터 경로
+# Data paths
 data_path = 'C:/Users/user/OneDrive/デスクトップ/py/bike-sharing-demand/'
 train = pd.read_csv(data_path + 'train.csv') 
 test = pd.read_csv(data_path + 'test.csv') 
